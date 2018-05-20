@@ -8,6 +8,8 @@ public:
 	~First() = default;
 
 	void debug();
+	void printNumber();
+	
 	int getNum();
 	void setNum(int num);
 
