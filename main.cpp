@@ -17,10 +17,5 @@ int main()
 	first.printNumber();
 	std::cout << "first.num: " << first.getNum() << std::endl;
 
-	TEST_EQ(5, 5)
-	TEST_NE(5, 9)
-
-	TEST_NE(5, 5) // <-- bad test
-
 	return 0;
 }
