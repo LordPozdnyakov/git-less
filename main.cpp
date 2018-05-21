@@ -7,6 +7,9 @@
 int main()
 {
 	First first;
+
+	TEST_EQ(first.getNum(), 0)
+
 	first.debug();
 
 	first.setNum(5);
