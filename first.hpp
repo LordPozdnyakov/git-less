@@ -4,7 +4,8 @@
 class First
 {
 public:
-	First() = default;
+	First();
+	First(int num);
 	~First() = default;
 
 	void debug();

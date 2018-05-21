@@ -2,6 +2,16 @@
 
 #include "first.hpp"
 
+First::First()
+{
+	num_ = 0;
+}
+
+First::First(int num)
+{
+	num_ = num;
+}
+
 void First::debug()
 {
 	std::cout << "Holy Shit!!! This is Debug!!!" << std::endl;
