@@ -5,3 +5,6 @@ EXE=gitest
 
 all:
 	$(CC) $(FLAGS) $(SOURCES) -o $(EXE)
+
+clean:
+	rm -f $(EXE)
