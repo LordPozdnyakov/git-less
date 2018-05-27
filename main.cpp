@@ -6,6 +6,8 @@
 
 int main()
 {
+	std::cout << "this is begin of main()";
+
 	First first;
 
 	TEST_EQ(first.getNum(), 0)
